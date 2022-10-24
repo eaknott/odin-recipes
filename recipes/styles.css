@@ -1,0 +1,48 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-align: left;
+}
+
+.autumn {
+    color: orangered;
+}
+
+.tikka {
+    color: #db560d;
+}
+
+.veg {
+    color:rgb(132,44,90);
+}
+
+h2 {
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:rgb(133,44,46);
+}
+
+.description {
+    background-color:#abbd2b80;
+}
+
+h4 {
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color:rgba(244,135,106,0.7);
+}
+p {
+    text-align: left;
+    background-color: antiquewhite;
+}
+
+ul,
+ol {
+    background-color:#e3b896;
+}
+
+li {
+    background-color:#e3b89680;
+}
