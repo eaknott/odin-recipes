@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    background-color: beige;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+p {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+#autumn {
+    background-color:rgba(154,60,60, 0.5);
+    color: white;
+}
+
+#tikka {
+    background-color:rgba(195,143,63,0.5);
+    color: black;
+}
+
+#veg {
+    background-color:rgba(171,37,105,0.5);
+    color: white;
+}
