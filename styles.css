@@ -1,11 +1,14 @@
-* {
-    border: 2px solid red;
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     text-align: center;
-    background-color: beige;
-    color: brown;
+    background-color: #eedac2;
+    color: #d16644;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
 }
@@ -17,16 +20,37 @@ p {
 }
 
 #autumn {
-    background-color:rgba(154,60,60, 0.5);
+    background-color: #e5a88b;
     color: white;
+}
+
+#autumn:hover {
+    background-color: #ccb3b9;
 }
 
 #tikka {
-    background-color:rgba(195,143,63,0.5);
+    background-color: #cf9683;
     color: black;
 }
 
+#tikka:hover {
+    background-color: #ccb3b9;
+}
+
 #veg {
-    background-color:rgba(171,37,105,0.5);
+    background-color: #878f84;
     color: white;
+}
+
+#veg:hover {
+    background-color: #ccb3b9;
+}
+
+h1, #autumn, #tikka, #veg {
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+img {
+    border-radius: 10px;
 }
